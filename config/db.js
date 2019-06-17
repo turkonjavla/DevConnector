@@ -9,7 +9,7 @@ const connectDB = async () => {
       {
         useNewUrlParser: true,
         useCreateIndex: true,
-        useFindAndModify: true
+        useFindAndModify: false
       }
     );
     console.log('MongoDB connected')
